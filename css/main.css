@@ -2,8 +2,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#logo{
+  border-radius: 3rem;
+}
+
 .bg-color-header{
-    background-color: #748CAB;
+    background-color: #8C2F39;
 }
 
 #navbar-items .navbar-nav{
@@ -71,12 +75,12 @@
     margin-top: 2em;
   }
   
-  #featured-images .col-md-4 {
+  #featured-images .col-md-2 {
     position: relative;
     cursor: pointer;
   }
   
-  #featured-images .col-md-4:hover > .banner-content {
+  #featured-images .col-md-2:hover > a > .banner-content {
     opacity: 0.8;
   }
   
@@ -198,9 +202,14 @@
   #links-container a:hover {
     color: #fff;
   }
-  
-  /* Forms */
-  
-  .form-control{
-    width: 20rem;
-  }
+
+
+  /*LIVROS*/
+.livros{
+  text-align: center;
+}
+
+/* BOTAO MODAL*/
+.btn btn-primary{
+  align-items: center;
+}

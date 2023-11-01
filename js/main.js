@@ -1,1 +1,1 @@
-let nadaaver = ""
+class  
